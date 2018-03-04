@@ -90,10 +90,13 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Bootstrapper.cs" />
+    <Compile Include="Connection.cs" />
+    <Compile Include="KeyboardControl.cs" />
     <Compile Include="SmartKickView.xaml.cs">
       <DependentUpon>SmartKickView.xaml</DependentUpon>
     </Compile>
     <Compile Include="SmartKickViewModel.cs" />
+    <Compile Include="StatusChecker.cs" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs">

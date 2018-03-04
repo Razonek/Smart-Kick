@@ -5,8 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:SmartKick"
         mc:Ignorable="d"
-        Height="300" Width="300">
-    <Grid>
-        
+        Height="150" Width="330" ResizeMode="CanMinimize" WindowStartupLocation="CenterScreen">
+    <Grid Background="#FF383838" >
+        <TextBlock x:Name="Description" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="Red"/>
     </Grid>
 </Window>
